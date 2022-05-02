@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright Ligts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            
+            
+            
+        }
+        header a {
+            padding:35px 20px;
+            font-size:20px;
+            color:white;
+            z-index:2;
+           
+            
+        }
+        section {
+            
+            position:relative;
+            background-image: url("./bg.png");
+            height:800px;
+            width:100%;
+            margin-top:-100px;
+            background-size:cover;
+            filter:contrast(230%);
+            
+            
+            
+        }
+        .section-content {
+            
+            
+            padding-top:280px;
+            max-width:700px;
+            margin:0 auto;
+            
+        }
+        .section-content-h2 {
+            font-size:48px;
+            color:white;
+        }
+        header img {
+            z-index:3;
+        }
+        .section-content-h1 {
+            font-size:100px;
+            color:transparent;
+            border-width: 0px;
+            -webkit-text-stroke:3px grey;
+            margin-top: 50px;
+            overflow: hidden;
+            content:"";
+        }
+        .flexbox-section {
+            display:flex;
+            position:absolute;
+            justify-content: center;
+            left:50%;
+            right:50%;
+            bottom:-200px;
+            background-color: #1C1B21;
+            z-index:4;
+            
+            
+        }
+        .flexbox-section img {
+            margin:0 15px;
+           
+        }
+        .relative-img {
+            position:relative;
+            
+
+        }
+        .absolute-img {
+            position:absolute;
+            bottom:0;
+            width:353px;
+            height:90px;
+            background: rgba(122, 102, 204, 0.7);
+            margin-left:13px;
+            border-radius:20px 0 20px 0;
+        }
+        .absolute-img h4 {
+            padding:10px;
+            color:rgba(255,255,255,1);
+        }
+        .main-content {
+            position:relative;
+            
+            height:300px;
+        }
+        .page-content { 
+            background-color: #1C1B21;
+        }
+    </style>
+    <link rel="stylesheet" href="./css/main-content.css">
+</head>
+<body>
+    <header>
+        <img style="padding-right:20px;" src="./header.svg" alt="">
+        <a href="">About</a>
+        <a href="">News</a>
+        <a href="">Music</a>
+        <a href="">Tours</a>
+        <a href="">Contacts</a>
+    </header>
+    <section>
+        <div class="section-content">
+            <h2 class="section-content-h2">New Single</h2>
+            <h1 class="section-content-h1">War for love</h1>
+        </div>
+    </section>
+    <div class="flexbox-section">
+        <div>
+            <img class="relative-img" src="./rec1.svg" alt="">
+            <div class="absolute-img">
+                <h4>Working on my upcoming full-lenth
+                    album that`s releasing later this year.</h4>
+            </div>
+        </div>
+        <div>
+            <img class="relative-img" src="./rec2.svg" alt="">
+            <div class="absolute-img"> <h4>Working on my upcoming full-lenth
+                album that`s releasing later this year.</h4></div>
+        </div>
+        <div>
+            <img class="relative-img" src="./rec3.svg" alt="">
+            <div class="absolute-img"> <h4>Working on my upcoming full-lenth
+                album that`s releasing later this year.</h4></div>
+        </div>
+    </div>
+    <div class="page-content">
+        <div class="main-content">
+            <div class="flex-left">
+                <div class = "bright-flex">
+                    <img src="./logoBright.svg" alt="" srcset="">
+                    <h2>Bright Lights</h2>
+            </div>
+                <p>Bright Lights is a multi-Grammy nominated singer, songwriter, DJ and record producer. She has written for numerous 
+
+                    pop stars including Britney Spears, Justin Bieber, Usher and Beyoncé. Her catalog has amassed over 1 billion streams worldwide. More than 100 million of those streams can be attributed to her artist career and include such hits as Porter Robinson's "Language," 3LAU's "How You Love Me" and her own single "Runaway." She was also a featured vocalist on Zedd's #1 Clarity album. Her latest music video, "Put It Down," reached 1 million streams in the first week, releasing independently. Bright Lights is currently in the studio working on a self-produced album slated for release in 2020. </p>
+                    <div class="flex-left-main">
+                        <div class="flex-left1">
+                            <img src="rec.svg" alt="">
+                            <h3>Based in: Los Angeles</h3>
+                        </div>
+                        <div class="flex-left2">
+                            <img src="rec.svg" alt="">
+                            <h3>Founded in 2011
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="flex-left-main">
+                        <div class="flex-left1">
+                            <img src="rec.svg" alt="">
+                            <h3>Genre: #DancePop 
+                            </h3>
+                        </div>
+                        <div class="flex-left2">
+                            <img src="rec.svg" alt="">
+                            <h3>333 Recordings
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            <div class="flex-right">
+                <img class="aheadImg" src="./aheadImg.svg" alt="">
+                <img class = "backImg" src="./backImg.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="page-content page-content-flex">
+        <div class="pop-flex">
+            <div class="pop-flex1">
+                <p>“In an age where mainstream music is designed to be as
+                    easily consumed as possible, listening to Bright Lights is
+                    refreshing, to say the least. Her sound is perfect for radio
+                    but complex enough to separate her from other pop newcomers.”</p>
+                <hr>
+                <li><a href="">PopULove.net</a></li>
+            </div>
+            <div class="pop-flex2">
+                <img class = "" src="./mtv.svg" alt="">
+            </div>
+        </div>
+    </div>
+   
+    <div class="page-content">
+        <div class="last-tracks page">
+            <div>
+                <img width = "400px" src="./round-left.svg" alt="">
+            </div>
+            <div class = "track-page-right">
+                <div class="tracks-flex">
+                    <img src="./logoBright.svg" alt="" srcset="">
+                    <h2>Bright Lights</h2>
+                </div>
+             
+                <br>
+                <h4>01 <a>3LAU, Bright Lights — How You Love Me</a></h4>
+                <h4>02 <a>Bright Lights, Kaleena Zanders, Kandy — War For Love
+                </a></h4>
+                <h4>03 <a>Pink Is Punk, Benny Benassi, Bright Lights — Ghost</a></h4>
+                <h4>04 <a>Hardwell, Dyro, Bright Lights — Never Say Goodbye</a></h4>
+                <h4>05 <a>Zeds Dead, Dirtyphonics, Bright Lights — Where Are You Now</a></h4>
+                <h4>06 <a>Zedd, Bright Lights — Follow You Down
+                </a></h4>
+                <div class="follow-me">
+                    <h3>Follow me:</h3>
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-content">
+        <div class="events page">
+            <img class="img0" src="img/rec1.png" alt="">
+            <img class="img1" src="img/rec.png" alt="">
+            <img class="img2" src="img/rec2.png" alt="">
+            <img class="img3" src="img/rec3.png" alt="">
+            <img  class="img4" src="img/rec4.png" alt="">
+        </div>
+    </div>
+
+    <div class="page-content ">
+        <div class="page page-tickets">
+            <div class="page-tickets-1">
+                <img src="img/ticket1.png" alt="">
+                <div class="tickets-content">
+                    <h4>Chandler, AZ</h4>
+                    <p>The Park at Wild Horse Pass</p>
+                    <div class="page-tickets-flex">
+                        <h4>APR 02 2021</h4>
+                        <a href="">Tickets</a>
+                    </div>
+                </div>
+            </div>
+            <div class="page-tickets-2">
+                <img src="img/ticket2.png" alt="">
+                <h4>Ibiza, IBZ</h4>
+                <p>Swag Ibiza Club</p>
+                <div class="page-tickets-flex">
+                    <h4>Jul 08 2021</h4>
+                    <a href="">Tickets</a>
+                </div>
+            </div>
+            <div class="page-tickets-3">
+                <img src="img/ticket3.png" alt="">
+                <h4>Ibiza, IBZ</h4>
+                <p>El Swing Ibiza</p>
+                <div class="page-tickets-flex">
+                    <h4>Jul 10 2021</h4>
+                    <a href="">Tickets</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-content">
+        <div class="page footer">
+            <img src="./header.svg" alt="">
+            <p>@ 2020 DJ BRIGHT LIGHTS</p>
+        </div>
+       
+    </footer>
+    
+    
+</body>
+</html>

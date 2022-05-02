@@ -1,0 +1,207 @@
+
+
+
+
+
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: none;
+}
+
+.main-content { 
+    display:flex;
+    justify-content: space-between;
+    max-width:1100px;
+    padding-top:300px;
+    padding-bottom:500px;
+    line-height: 35px;
+    margin:0 auto;
+}
+.main-content h2 {
+    color:white;
+    font-size:60px;
+    margin-left:30px;
+    font-weight:600;
+    
+
+    
+
+}
+.main-content p {
+    max-width: 650px;
+    font-size:20px;
+    color:rgb(138, 138, 138);
+}
+.bright-flex { 
+    display:flex;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+.flex-left {
+   
+}
+.flex-right {
+    text-align: center;
+    margin:0 auto;
+}
+.aheadImg {
+    position: relative;
+    z-index:4;
+}
+.backImg {
+    position:absolute;
+    right:-50px;
+    
+    bottom:300px;
+}
+.flex-left-main {
+    display: flex;
+    justify-content: space-between;
+    color:white;
+}
+.flex-left1,.flex-left2 {
+    display:flex;
+    margin-top: 50px;
+}
+.flex-left-main h3 {
+    margin-left:30px;
+    font-size:23px;
+    font-weight: 600;
+}
+.page-content-flex {
+    padding-bottom:200px;
+}
+.pop-flex {
+    position: relative;
+    display: flex;
+    max-width:1100px;
+    text-align: center;
+    margin:0 auto;  
+    align-items: center;
+    border:1px solid rgba(122, 102, 204, 1);
+    border-radius:20px 0 20px 0;
+    
+    
+    
+}
+.page {
+    max-width:1100px;
+    text-align: center;
+    margin:0 auto;
+}
+.pop-flex1 {
+    
+    text-align: left;
+    max-width:550px;
+    color:white;
+    font-size: 20px;
+    margin-right: 100px;
+    padding:50px;
+}
+.pop-flex1 li>a {
+    font-size:27px;
+    color:rgba(122, 102, 204, 1);
+}
+.pop-flex2 {
+    position: absolute;
+    right:50px;
+}
+.last-tracks {
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    padding-bottom:30px;
+    
+}
+.last-tracks h2 {
+    font-size:55px;
+    margin-left:50px;
+}
+.last-tracks a {
+    color:grey;
+    margin-left:20px;
+}
+.last-tracks h4 {
+    font-size:22px;
+    margin:20px 0px;
+}
+.tracks-flex {
+    display:flex;
+    align-items: center;
+
+}
+.track-page-right
+{
+    margin-left: 20%;
+}
+.events {
+    padding-top: 150px;
+    display: grid;
+    grid-gap:50px;
+    grid-template-areas:"grid1 grid2 grid3 grid4";
+    grid-template-columns: 250px 250px 250px 250px;
+    
+    
+}
+.img0 { 
+    grid-area:"grid1";
+}
+.img1 {
+    grid-area:"grid2";
+}
+.img2 {
+    grid-area:"grid3";
+}
+.img3 {
+    grid-area:"grid4";
+}
+.img4 {
+    display:none;
+    grid-area:"grid5";
+   
+    
+}
+.page-tickets {
+    padding-top:150px;
+    display:flex;
+    
+}
+.page-tickets > div {
+    border-radius:32px 0 20px 0;
+    margin-right: 50px;
+    background-color: rgb(43, 43, 43);
+    color:white;
+    text-align: left;
+    
+}
+.page-tickets > div h4 {
+    margin-left: 30px;
+    margin-bottom:20px;
+    margin-top: 30px;
+    font-size:19px;
+}
+.page-tickets > div p {
+    color:grey;
+    margin-left: 30px;
+    font-size:18px;
+}
+.page-tickets-flex {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.page-tickets-flex a {
+    font-size:19px;
+    padding:15px 45px;
+    color:white;
+    background-color: rgba(122, 102, 204, 1);
+    border-radius:30px;
+}
+.footer {
+    padding-top:150px;
+}
